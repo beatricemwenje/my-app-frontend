@@ -1,0 +1,72 @@
+body {
+  background-color: darksalmon;
+  background-color: #61876E;
+  margin:0;
+  padding: 0;
+}
+
+
+.projects_list h2 {
+  text-align: center;
+  font-style: italic;
+
+}
+
+.main h1{
+  text-align: center;
+  font-style: italic;
+}
+.links a {
+  text-decoration: none;
+  padding:10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color:black
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+
+}
+.projects_card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 13%;
+}
+.project {
+  background-color: blue;
+  background-color:#A6BB8D;
+  margin:5px;
+  border-radius:5px;
+}
+.project p {
+  text-align:center;
+  
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  padding:6px;
+}
+ button:hover { 
+background-color: brown;
+cursor: pointer;
+background-color: #61876E;
+cursor:pointer;
+
+}
+button {
+  border-radius: 4px;
+  padding:2px;
+}
+.members {
+  display: flex;
+  padding:10px;
+}
+.members_list {
+  margin-left:10px;
+}
